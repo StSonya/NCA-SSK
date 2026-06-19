@@ -54,7 +54,7 @@
 <body class="bg-light">
   <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom py-3 sticky-top">
   <div class="container">
-    <span class="museum-name text-muted fs-5">Назва музею</span>
+    <span class="museum-name text-muted fs-5">Національний заповідник "Софія Київська"</span>
     
     <div class="d-flex align-items-center gap-2 ms-auto">
       <!-- Поле пошуку — гнучке -->
@@ -65,7 +65,7 @@
              style="max-width: 380px; min-width: 220px;">
 
       <!-- Кнопка Головна -->
-      <a href="https://твій-музей-сайт.ua" 
+      <a href="https://sofiia-kyivska.ua/" 
          class="btn btn-outline-secondary" 
          target="_blank">Головна</a>
 
@@ -81,7 +81,7 @@
 
   <div class="container py-5">
     <h1 class="fw-light text-center mb-3">Колекція</h1>
-<p class="text-center text-muted fs-5 mb-5">Назва колекції</p>
+<p class="text-center text-muted fs-5 mb-5"></p>
     <div id="exhibitsGrid" class="row justify-content-center g-4"></div>
     
     <div class="text-center mt-5">
@@ -214,7 +214,7 @@
                 `<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-volume">3D</a></li>` : ''}
               
               ${item["3D-II"] && typeof item["3D-II"] === 'string' && item["3D-II"].trim() !== '' ? 
-                `<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-volume2">3D-II</a></li>` : ''}
+                `<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-volume2">3D*</a></li>` : ''}
               
               ${item["4D"] && typeof item["4D"] === 'string' && item["4D"].trim() !== '' ? 
                 `<li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#tab-video">4D</a></li>` : ''}
@@ -376,7 +376,7 @@ function createWikidataField(label, value, wikidataId) {
   </script>
 
   <footer class="bg-white border-top py-4 text-center text-muted small">
-    © [Назва музею], 2026. Всі права захищені.<br>
+    © [Трофимчук С.М.], 2026. Всі права захищені.<br>
     Матеріали поширюються за ліцензією 
     <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" class="text-muted">CC BY-NC-ND 4.0</a>
   </footer>
