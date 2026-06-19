@@ -1,7 +1,5 @@
 # Цифрова експозиція музею
 
-[![Use this template](https://img.shields.io/badge/Use%20this%20template-Click%20here-brightgreen?style=for-the-badge&logo=github)](https://github.com/StSonya/museum-collection/generate)
-
 Це простий гайд для **не програмістів**.  
 Ви зможете самостійно наповнювати цифрову колекцію та оновлювати сайт.
 
@@ -209,7 +207,6 @@ Collection/
 │
 └── data.json
 ```
-Якщо виникнуть питання — пишіть нам.
 
 © [Трофимчук С.М.], 2026  
 Матеріали поширюються за ліцензією [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
